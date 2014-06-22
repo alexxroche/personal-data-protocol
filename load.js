@@ -1,11 +1,11 @@
 "undefined" == typeof PDP ? !
 function () {
-  // alert("Loading PDP");
-  var a, b, c, d, e = "0.02",
+  var a, b, c, d, e = "0.03",
     f = document.createDocumentFragment(),
     g = [{
+      charset: "UTF-8",
       type: "link",
-      url: "//raw.githubusercontent.com/alexxroche/personal-data-protocol/master/css/pdp.css",
+      url: "//alexxroche.github.io/personal-data-protocol/css/pdp.css",
       async: !0,
       nocache: !0
     }, {
@@ -19,8 +19,9 @@ function () {
       async: !1,
       nocache: !1
     }, {
+      charset: "UTF-8",
       type: "script",
-      url: "//raw.githubusercontent.com/alexxroche/personal-data-protocol/master/pdp.js",
+      url: "//alexxroche.github.io/personal-data-protocol/js/pdp.js",
       async: !1,
       nocache: !1
     }];
