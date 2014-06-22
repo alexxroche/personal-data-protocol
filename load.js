@@ -5,14 +5,12 @@ function () {
     f = document.createDocumentFragment(),
     g = [{
       type: "link",
-      //url: "//github.com/alexxroche/dynamic-personal-data/raw/master/css/pdp.css",
-      url: "css/pdp.css",
+      url: "//raw.githubusercontent.com/alexxroche/personal-data-protocol/master/css/pdp.css",
       async: !0,
       nocache: !0
     }, {
       type: "script",
-      //url: "//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.min.js",
-      url: "js/jquery.min.js",
+      url: "//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.min.js",
       async: !1,
       nocache: !1
     }, {
@@ -22,9 +20,7 @@ function () {
       nocache: !1
     }, {
       type: "script",
-      //url: "//github.com/alexxroche/dynamic-personal-data/raw/master/pdp.js",
-      //url: "hello_world.js",
-      url: "pdp.js",
+      url: "//raw.githubusercontent.com/alexxroche/personal-data-protocol/master/pdp.js",
       async: !0,
       nocache: !1
     }];
