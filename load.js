@@ -1,5 +1,5 @@
 "undefined" == typeof PDP ? !
-function () {
+(function () {
   var a, b, c, d, e = "0.03",
     f = document.createDocumentFragment(),
     g = [{
@@ -27,5 +27,5 @@ function () {
     }];
   for (d = 0; d < g.length; d++) a = g[d], b = document.createElement(a.type), c = a.nocache ? "?v=" + e : "", "link" === a.type ? (b.rel = "stylesheet", b.href = a.url + c) : "script" === a.type && (b.src = a.url + c), b.async = a.async, f.appendChild(b);
   document.head.appendChild(f)
-}() : PDP.message("Personal Data Overlay is already loaded!", "error");
+})() : PDP.message("Personal Data Overlay is already loaded!", "error");
 
