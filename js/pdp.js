@@ -26,7 +26,7 @@ PDP.loadContextMenu = function(){
   //document.getElementById('PDP_overlay').appendChild(cm);
   // can't do that becase we may not have created the DIV yet
     document.getElementsByTagName('head')[0].appendChild(cm);
-    $('#PDP_overlay_CM').load('t/default_context_menu.html');
+    $('#PDP_overlay_CM').load('../t/default_context_menu.html');
     console.log('loading ContextMenu');
 },
 PDP.setZindex = function(){
