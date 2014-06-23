@@ -8,5 +8,6 @@ div.PDP_overlay, div.overlay {
   left: 0;
   top: 0;
   background: rgba(51,51,51,0.9);
-  z-index: 10;
+  z-index: 1234; /*Google use 1001 on  their search page */
+    /* we can search the parent page for the max z-index */
 }
